@@ -1,0 +1,151 @@
+.headingtext{
+    font-size: 2.8rem;
+    margin-top: 1vw;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    width:18vw
+}
+.mainBox{
+    margin-left:1vw;
+    margin-right: 1vw;
+    /* border: 1px solid black; */
+    padding-top: 0px;
+    margin-top: 0px;
+   
+}
+.leftArrow{
+    padding-top: 3vh;
+}
+.threeIcons{
+    display: flex;
+    justify-content: left;
+    margin-top: 3vh;
+}
+.threeIcons>div{
+    display: block;
+    text-align: center;
+    padding: 0.8vw;
+}
+.threeIcons p{
+    line-height: 0;
+}
+.iconCover{
+    height: 2.5vw;
+    width: 2.5vw;
+    background-color: rgb(201, 199, 199);
+    border-radius: 50%;
+    
+}
+.iconCover2{
+    height: 2vw;
+    width: 2vw;
+    background-color: rgb(201, 199, 199);
+    border-radius: 50%;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 5vh;
+    padding-left: 0.3vw;
+    padding-bottom: 0.2vw;
+ 
+}
+.shape{
+    padding: auto;
+    padding-top: 1vh;
+    font-size: 2.5rem
+}
+.shape2{
+    padding: auto;
+    padding-top: 1vh;
+    padding-left: 0.4vw;
+}
+.dynats{
+    font-size: 1rem;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 2vh;
+}
+.maitreya{
+    font-size: 1.2rem;
+    color: gray;
+    box-sizing: border-box;
+}
+.description{
+    font-size: 1.2rem;
+}
+.orange{
+    color:rgb(155, 74, 7);
+    margin-top: 1.2vw;
+    font-size: 1.6rem;
+}
+
+.bottomButton{
+margin-top: 1.2vw;
+}
+
+.button1{
+    font-size: 1.2rem;
+    background-color: rgb(155, 74, 7);
+    border: none;
+    color:white;
+    line-height: 2vw;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.button2{
+    margin-left: 1vw;
+    font-size: 1.5rem;
+    /* background-color: rgb(226, 67, 24);; */
+    border-color: rgb(155, 74, 7);
+    color:rgb(155, 74, 7);
+    line-height: 2vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.leftDrag{
+    width: 3vw;
+    height: 2vw;
+    background-color: rgb(201, 199, 199);
+    margin-left: 22vw;
+    margin-top: 2vw;
+}
+.drag{
+    padding-top: 0.25vh;
+    padding-left: 0.6vw;
+    font-size: 2.5rem
+}
+
+@media screen and (max-width: 1000px) {
+  .headingtext{
+    width: 50vw;
+  }
+  .iconCover{
+    height: 5vw;
+    width: 5vw;
+    background-color: rgb(201, 199, 199);
+    border-radius: 50%;
+    
+}
+.shape{
+    /* padding: auto; */
+    padding-top: 0vh;
+    font-size: 2.5rem
+}
+.leftDrag{
+    width: 5vw;
+    height: 6vw;
+    background-color: rgb(201, 199, 199);
+    margin-left: 56vw;
+    margin-top: 2vw;
+}
+.iconCover2{
+    height: 4vw;
+    width: 4vw;
+    background-color: rgb(201, 199, 199);
+    border-radius: 50%;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 5vh;
+    padding-left: 0.3vw;
+    padding-bottom: 0.2vw;
+ 
+}
+  }
