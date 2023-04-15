@@ -22,9 +22,15 @@
 .sidebar{
     width: 25vw;
 }
+.sidebar2{
+    width: 3vw;
+}
 
 @media screen and (max-width: 1000px) {
     .sidebar{
         width: 60vw;
+    }
+    .sidebar2{
+        width: 6vw;
     }
   }

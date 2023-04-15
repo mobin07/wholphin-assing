@@ -37,15 +37,15 @@
     
 }
 .iconCover2{
-    height: 2vw;
-    width: 2vw;
+    height: 2.5vw;
+    width: 2.5vw;
     background-color: rgb(201, 199, 199);
     border-radius: 50%;
     /* margin-top: 30px; */
     position: relative;
     top: 5vh;
-    padding-left: 0.3vw;
-    padding-bottom: 0.2vw;
+    /* padding-left: 0.2vw; */
+    /* padding-bottom: 0.2vw; */
  
 }
 .shape{
@@ -55,8 +55,9 @@
 }
 .shape2{
     padding: auto;
-    padding-top: 1vh;
+    padding-top: 0.5vh;
     padding-left: 0.4vw;
+    font-size: 2.3rem
 }
 .dynats{
     font-size: 1rem;
@@ -137,8 +138,8 @@ margin-top: 1.2vw;
     margin-top: 2vw;
 }
 .iconCover2{
-    height: 4vw;
-    width: 4vw;
+    height: 5vw;
+    width: 5vw;
     background-color: rgb(201, 199, 199);
     border-radius: 50%;
     /* margin-top: 30px; */

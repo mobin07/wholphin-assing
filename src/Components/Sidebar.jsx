@@ -14,7 +14,7 @@ const Sidebar = () => {
             <div  className={styles.sidebar}>
             <SidebarMenu toggle={toggle}/>
           </div>:
-          <div style={{width:'3vw'}} className='sidebar'>
+          <div className={styles.sidebar2}>
                 <SidebarSmall toggle={toggle}/>
           </div>
         }
